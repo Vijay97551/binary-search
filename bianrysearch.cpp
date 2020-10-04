@@ -36,7 +36,7 @@ int main()
         } 
         if(first > last)
 	{
-	   cout<<num<<" not found in the array";
+	   cout<<num<<" nothing in the array";
 	}
 	return 0;
 }
