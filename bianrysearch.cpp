@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-	int count1, i, arr[30], num, first, last, middle;
+	int count1, i, arr[50], num, first, last, middle;
 	cout<<"how many elements would you like to enter?:"; 
         cin>>count1;
 
 	for (i=0; i<count1; i++)
 	{
-		cout<<"Enter number "<<(i+1)<<": "; 
+		cout<<"Enter number i "<<(i+1)<<": "; 
                 cin>>arr[i];
 	}
 	cout<<"Enter the number that you want to search:"; 
@@ -37,6 +37,7 @@ int main()
         if(first > last)
 	{
 	   cout<<num<<" nothing in the array";
+		cout<<"yes";
 	}
 	return 0;
 }
